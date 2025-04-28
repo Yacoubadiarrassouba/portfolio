@@ -22,7 +22,7 @@ const Home = () => {
                         Contactez-moi
                     </a>
 
-                    <a href="/Diarrassouba.pdf" download className="btn btn-outline md:w-fit flex items-center">
+                    <a href="/CV_DIARRASSOUBA.pdf" download className="btn btn-outline md:w-fit flex items-center">
                         <Download className="w-5 h-5" />
                         Télécharger mon CV
                     </a>

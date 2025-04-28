@@ -1,11 +1,11 @@
 import Title from "./Title"
 
 import img1 from '../assets/projects/App_Trello.png';
-// import img2 from '../assets/projects/Dashbord.png';
+import img2 from '../assets/projects/flutter.png';
 import img3 from '../assets/projects/My_shop.png';
 import img4 from '../assets/projects/Post-it.png';
 import img5 from '../assets/projects/Service.png';
-// import img6 from '../assets/projects/6.png';
+import img6 from '../assets/projects/DynExAfrica.png';
 import { Github, Video } from "lucide-react";
 
 
@@ -19,15 +19,19 @@ const projects = [
         repoLink: '#',
         image: img1,
     },
-    // {
-    //     id: 2,
-    //     title: 'Plateforme E-commerce',
-    //     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae magni deserunt debitis recusandae ab harum totam, eum facilis et ratione officia ut inventore aspernatur',
-    //     technologies: ['Next.js', 'TypeScript', 'Prisma'],
-    //     demoLink: '#',
-    //     repoLink: '#',
-    //     image: img2,
-    // },
+    {
+    id: 2,
+    title: 'ChatApp',
+    description: `Dans le cadre d'un bootcamp, j'ai développé une application mobile de chat en utilisant Flutter et Firebase.
+Le projet inclut l'authentification sécurisée, la messagerie en temps réel et la gestion des profils utilisateurs.
+J'ai conçu l'interface, intégré les services Firebase et optimisé l'expérience utilisateur.
+L'application offre une navigation fluide, des notifications et un design moderne.`,
+    technologies: ['Flutter', 'Firebase'],
+    demoLink: '#',
+    repoLink: '#',
+    image: img2,
+},
+
     {
         id: 3,
         title: 'Plateforme E-commerce',
@@ -55,15 +59,16 @@ const projects = [
         repoLink: '#',
         image: img5,
     },
-    // {
-    //     id: 6,
-    //     title: 'Analyseur de sentiment',
-    //     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae magni deserunt debitis recusandae ab harum totam, eum facilis et ratione officia ut inventore aspernatur',
-    //     technologies: ['Python', 'Flask', 'NLTK'],
-    //     demoLink: '#',
-    //     repoLink: '#',
-    //     image: img6,
-    // },
+    {
+    id: 6,
+    title: 'DynExAfrica E-learning',
+    description: 'Réalisation d\'une plateforme d\'e-learning pour la vulgarisation des STEM auprès des jeunes filles en Afrique. J\'ai participé à l\'implémentation technique sous Moodle, au design UX/UI et à l\'organisation du contenu pédagogique.',
+    technologies: ['Moodle', 'PHP', 'HTML', 'CSS'],
+    demoLink: '#',
+    repoLink: '#',
+    image: img6,
+},
+
 ];
 
 const Projects = () => {
